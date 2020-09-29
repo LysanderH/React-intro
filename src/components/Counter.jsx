@@ -23,7 +23,7 @@ class Counter extends Component {
                 <p>
                     <span>{this.state.count}</span>
                     <button onClick={this.addOne}>+</button>
-                    <button onClick={this.substractOne}>+</button>
+                    <button onClick={this.substractOne}>-</button>
                 </p>
             </section>
         );
