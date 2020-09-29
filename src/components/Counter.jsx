@@ -21,7 +21,7 @@ class Counter extends Component {
             <section>
                 <h2 aria-level="2" role="heading">Compteur basique</h2>
                 <p>
-                    <span>{this.state.count}</span>
+                    <span>{this.state.count === 0 ? "Initialiser le compteur" : this.state.count}</span>
                     <button onClick={this.addOne}>+</button>
                     <button onClick={this.substractOne}>-</button>
                 </p>
