@@ -1,13 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class Person extends Component {
-    render() {
-        return (
-            <div>
-                Jean-Jâcques
-            </div>
-        );
-    }
+function Person() {
+    return (
+        <div>
+            Jean-Jâcques
+        </div>
+    );
 }
 
 export default Person;
